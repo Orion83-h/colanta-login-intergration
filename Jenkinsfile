@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
   - name: build
-    image: colanta/jenkins-agent:v1
+    image: colanta/build-agent
     command:
     - cat
     tty: true
