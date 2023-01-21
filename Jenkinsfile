@@ -48,7 +48,7 @@ spec:
             dir('charts') {
               withCredentials([usernamePassword(credentialsId: 'jfrog', usernameVariable: 'username', passwordVariable: 'password')]) {
               sh '/usr/local/bin/helm package webapp'
-              sh '/usr/local/bin/helm push-artifactory webapp-1.0.tgz https://helmina.jfrog.io/artifactory/helmina-helm-local --username $username --password $password'
+              sh '/usr/local/bin/helm push-artifactory webapp-1.0.tgz https://lufthansa.jfrog.io/artifactory/oliver-demo-helm-local --username $username --password $password'
               }
             }
         }
