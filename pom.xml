@@ -71,8 +71,8 @@
 <distributionManagement>
     <repository>
         <id>central</id>
-        <name>a0nruwtbsbxkm-artifactory-primary-0-releases</name>
-        <url>https://helmina.jfrog.io/artifactory/helmina-libs-release</url>
+        <name>a0tjkwuru895q-artifactory-primary-0-releases</name>
+        <url>https://lufthansa.jfrog.io/artifactory/oliver-repo-libs-release</url>
     </repository>
 </distributionManagement>
  

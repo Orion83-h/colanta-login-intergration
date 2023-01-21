@@ -3,13 +3,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <servers>
     <server>
-      <username>helminadeyson@gmail.com</username>
-      <password>Helmina@deyson1</password>
+      <username>oliverhaddison885@gmail.com</username>
+      <password>lufthansa@</password>
       <id>central</id>
     </server>
     <server>
-      <username>helminadeyson@gmail.com</username>
-      <password>Helmina@deyson1</password>
+      <username>oliverhaddison885@gmail.com</username>
+      <password>lufthansa@</password>
       <id>snapshots</id>
     </server>
   </servers>
@@ -21,14 +21,14 @@
             <enabled>false</enabled>
           </snapshots>
           <id>central</id>
-          <name>helmina-libs-release</name>
-          <url>https://helmina.jfrog.io/artifactory/helmina-libs-release</url>
+          <name>oliver-repo-libs-release</name>
+          <url>https://lufthansa.jfrog.io/artifactory/oliver-repo-libs-release</url>
         </repository>
         <repository>
           <snapshots />
           <id>snapshots</id>
-          <name>helmina-libs-snapshot</name>
-          <url>https://helmina.jfrog.io/artifactory/helmina-libs-snapshot</url>
+          <name>oliver-repo-libs-snapshot</name>
+          <url>https://lufthansa.jfrog.io/artifactory/oliver-repo-libs-snapshot</url>
         </repository>
       </repositories>
       <pluginRepositories>
@@ -37,14 +37,14 @@
             <enabled>false</enabled>
           </snapshots>
           <id>central</id>
-          <name>helmina-libs-release</name>
-          <url>https://helmina.jfrog.io/artifactory/helmina-libs-release</url>
+          <name>oliver-repo-libs-release</name>
+          <url>https://lufthansa.jfrog.io/artifactory/oliver-repo-libs-release</url>
         </pluginRepository>
         <pluginRepository>
           <snapshots />
           <id>snapshots</id>
-          <name>helmina-libs-snapshot</name>
-          <url>https://helmina.jfrog.io/artifactory/helmina-libs-snapshot</url>
+          <name>oliver-repo-libs-snapshot</name>
+          <url>https://lufthansa.jfrog.io/artifactory/oliver-repo-libs-snapshot</url>
         </pluginRepository>
       </pluginRepositories>
       <id>artifactory</id>
