@@ -71,7 +71,7 @@
     <repository>
         <id>central</id>
         <name>a0tjkwuru895q-artifactory-primary-0-releases</name>
-        <url>https://lufthansa.jfrog.io/artifactory/oliver-repo-libs-release</url>
+        <url>https://lufthansa.jfrog.io/artifactory/oliver-repo-libs-release-local</url>
     </repository>
 </distributionManagement>
  
