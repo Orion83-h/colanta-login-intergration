@@ -35,9 +35,9 @@ spec:
         stage ('Docker Build'){
           container('build') {
                 stage('Build Image') {
-                    docker.withRegistry( 'https://registry.hub.docker.com', 'docker' ) {
+                    docker.withRegistery( 'https://registry.hub.docker.com', 'docker' ) {
                     def customImage = docker.build("colanta/tomcat-base")
-                    customImage.push()             
+                    customImage.push()er.withRegist             
                     }
                 }
             }
